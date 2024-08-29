@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace GCI\\Platform\\Plugins\EMR;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class EMRPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'gci-platform-emr';
     }
 
     public function register(Panel $panel): void
